@@ -23,7 +23,7 @@ function App() {
 
     return (
         <ThemeContext.Provider value={theme}>
-            <div style={theme}>
+            <div className="container" style={theme}>
                 <Navbar sideBarOpen={sideBarOpen} openSideBar={openSideBar} />
                 <Sidebar />
             </div>
