@@ -1,4 +1,5 @@
-import logo from './logo.svg';
+import logo from "../../user-logo.png";
+import './navbar.css';
 
 const Navbar = ({ sideBarOpen, openSideBar }) => {
     return (
@@ -16,10 +17,10 @@ const Navbar = ({ sideBarOpen, openSideBar }) => {
                     <i className="fa fa-search"></i>
                 </a>
                 <a href="#">
-                    <i className="fa fa-clock-o"></i>
+                    <i className="fa fa-clock"></i>
                 </a>
                 <a href="#">
-                    <img src={logo} alt=""/>
+                    <img src={logo} alt="" width="30px"/>
                 </a>
             </div>
         </nav>
