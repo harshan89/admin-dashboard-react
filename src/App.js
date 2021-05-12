@@ -2,7 +2,8 @@ import React, {useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/navbar/navbar';
-import Sidebar from './components/sidebar/sidebar'
+import Sidebar from './components/sidebar/sidebar';
+import Main from './components/main/main'
 import {ThemeProvider} from 'styled-components';
 import THEMES from './constants/theme';
 import {getTheme} from './getTheme';
@@ -11,21 +12,20 @@ import Header from './Header';
 
 function App() {
     const [theme, setTheme] = useState(themes.light);
-    const [sideBarOpen, setSideBarOpen] = useState(true);
-
-    const openSideBar = () => {
-
-    }
-
-    const closeSideBar = () => {
-
-    }
+    const [sidebarOpen, setsidebarOpen] = useState(false);
+    const openSidebar = () => {
+        setsidebarOpen(true);
+    };
+    const closeSidebar = () => {
+        setsidebarOpen(false);
+    };
 
     return (
         <ThemeContext.Provider value={theme}>
             <div className="container" style={theme}>
-                <Navbar sideBarOpen={sideBarOpen} openSideBar={openSideBar} />
-                <Sidebar />
+                <Navbar sidebarOpen={sidebarOpen} openSidebar={openSidebar} />
+                <Main />
+                <Sidebar sidebarOpen={sidebarOpen} closeSidebar={closeSidebar} />
             </div>
 
             {/*<button onClick={() => setTheme(themes.dark)}>DARK THEME</button>*/}
