@@ -6,17 +6,6 @@ const Main = () => {
   return (
     <main>
       <div className="main__container">
-        {/* <!-- MAIN TITLE STARTS HERE --> */}
-
-        <div className="main__title">
-          <img src={hello} alt="hello" />
-          <div className="main__greeting">
-            <h1>Hello Developers</h1>
-            <p>Welcome to your admin dashboard</p>
-          </div>
-        </div>
-
-        {/* <!-- MAIN TITLE ENDS HERE --> */}
 
         {/* <!-- MAIN CARDS STARTS HERE --> */}
         <div className="main__cards">
@@ -26,16 +15,16 @@ const Main = () => {
               aria-hidden="true"
             ></i>
             <div className="card_inner">
-              <p className="text-primary-p">Number of Subscribers</p>
-              <span className="font-bold text-title">578</span>
+              <p className="text-primary-p">Card 1</p>
+              <span className="font-bold text-title">100</span>
             </div>
           </div>
 
           <div className="card">
             <i className="fa fa-calendar fa-2x text-red" aria-hidden="true"></i>
             <div className="card_inner">
-              <p className="text-primary-p">Times of Watching</p>
-              <span className="font-bold text-title">2467</span>
+              <p className="text-primary-p">Card 2</p>
+              <span className="font-bold text-title">1000</span>
             </div>
           </div>
 
@@ -45,8 +34,8 @@ const Main = () => {
               aria-hidden="true"
             ></i>
             <div className="card_inner">
-              <p className="text-primary-p">Number of Videos</p>
-              <span className="font-bold text-title">340</span>
+              <p className="text-primary-p">Card 3</p>
+              <span className="font-bold text-title">300</span>
             </div>
           </div>
 
@@ -56,8 +45,8 @@ const Main = () => {
               aria-hidden="true"
             ></i>
             <div className="card_inner">
-              <p className="text-primary-p">Number of Likes</p>
-              <span className="font-bold text-title">645</span>
+              <p className="text-primary-p">Card 4</p>
+              <span className="font-bold text-title">500</span>
             </div>
           </div>
         </div>
@@ -79,8 +68,8 @@ const Main = () => {
           <div className="charts__right">
             <div className="charts__right__title">
               <div>
-                <h1>Stats Reports</h1>
-                <p>Cupertino, California, USA</p>
+                <h1>Reports</h1>
+                <p>Colombo, Sr iLanka</p>
               </div>
               <i className="fa fa-usd" aria-hidden="true"></i>
             </div>
@@ -88,22 +77,22 @@ const Main = () => {
             <div className="charts__right__cards">
               <div className="card1">
                 <h1>Income</h1>
-                <p>$75,300</p>
+                <p>$10,300</p>
               </div>
 
               <div className="card2">
                 <h1>Sales</h1>
-                <p>$124,200</p>
+                <p>$104,200</p>
               </div>
 
               <div className="card3">
                 <h1>Users</h1>
-                <p>3900</p>
+                <p>4900</p>
               </div>
 
               <div className="card4">
                 <h1>Orders</h1>
-                <p>1881</p>
+                <p>1001</p>
               </div>
             </div>
           </div>
