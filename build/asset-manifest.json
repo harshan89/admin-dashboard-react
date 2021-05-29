@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/admin-dashboard-react/static/css/main.1958e404.chunk.css",
+    "main.js": "/admin-dashboard-react/static/js/main.ced72ac0.chunk.js",
+    "main.js.map": "/admin-dashboard-react/static/js/main.ced72ac0.chunk.js.map",
+    "runtime-main.js": "/admin-dashboard-react/static/js/runtime-main.e97e2b45.js",
+    "runtime-main.js.map": "/admin-dashboard-react/static/js/runtime-main.e97e2b45.js.map",
+    "static/css/2.adc6f56e.chunk.css": "/admin-dashboard-react/static/css/2.adc6f56e.chunk.css",
+    "static/js/2.53539f8f.chunk.js": "/admin-dashboard-react/static/js/2.53539f8f.chunk.js",
+    "static/js/2.53539f8f.chunk.js.map": "/admin-dashboard-react/static/js/2.53539f8f.chunk.js.map",
+    "static/js/3.1f629b79.chunk.js": "/admin-dashboard-react/static/js/3.1f629b79.chunk.js",
+    "static/js/3.1f629b79.chunk.js.map": "/admin-dashboard-react/static/js/3.1f629b79.chunk.js.map",
+    "index.html": "/admin-dashboard-react/index.html",
+    "static/css/2.adc6f56e.chunk.css.map": "/admin-dashboard-react/static/css/2.adc6f56e.chunk.css.map",
+    "static/css/main.1958e404.chunk.css.map": "/admin-dashboard-react/static/css/main.1958e404.chunk.css.map",
+    "static/js/2.53539f8f.chunk.js.LICENSE.txt": "/admin-dashboard-react/static/js/2.53539f8f.chunk.js.LICENSE.txt",
+    "static/media/avatar.1a84bdf0.svg": "/admin-dashboard-react/static/media/avatar.1a84bdf0.svg",
+    "static/media/hello.4a9307f4.svg": "/admin-dashboard-react/static/media/hello.4a9307f4.svg",
+    "static/media/logo.6ce24c58.svg": "/admin-dashboard-react/static/media/logo.6ce24c58.svg",
+    "static/media/user-logo.22c31152.png": "/admin-dashboard-react/static/media/user-logo.22c31152.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e97e2b45.js",
+    "static/css/2.adc6f56e.chunk.css",
+    "static/js/2.53539f8f.chunk.js",
+    "static/css/main.1958e404.chunk.css",
+    "static/js/main.ced72ac0.chunk.js"
+  ]
+}
